@@ -1,0 +1,260 @@
+{
+    "products": [
+        {
+          "id": "94313731",
+          "name": "Marcador Técnico Nanquim Pigma Micron" ,
+          "price": 15.99,
+          "oldPrice": 349.99,
+          "image": "https://images.tcdn.com.br/img/img_prod/639335/marcador_tecnico_nanquim_pigma_micron_pn_sakura_12941_1_638978b219b764bf726fb430c131a3e9.jpeg"
+        },
+        {
+          "id": "94313762",
+          "name": "Marca Texto Mini Picolé Pastel",
+          "price": 4.99,
+          "oldPrice": 349.99,
+          "image": "https://images.tcdn.com.br/img/img_prod/1081561/marca_texto_mini_picole_pastel_trend_jocar_office_161_1_278d991c21163ec0ff75764c788778fb.jpg"
+        },
+        
+        { 
+          "id": "943137XQ",
+          "name": "Lápis Fofo Fantasia Pets",
+          "price": 7.99,
+          "oldPrice": 349.99,
+          "image": "https://d2r9epyceweg5n.cloudfront.net/stores/002/057/177/products/lapis-bichinho-cis1-dab750c6c0e552fb7b16488449136912-640-0.jpg"
+        },
+        {
+          "id": "95077714",
+          "name": "Lapiseira 0.7mm Cenoura",
+          "price": 19.99,
+          "oldPrice": 279.99,
+          "image": "https://images.tcdn.com.br/img/img_prod/639335/lapiseira_0_7mm_cenoura_tilibra_13667_1_9ebbda672fef0ab9fefb56c12d70a840.png"
+        },
+        {
+          "id": "9507779N",
+          "name": "Estojo Kawaii Transparente",
+          "price": 69.99,
+          "oldPrice": 279.99,
+          "image": "https://ae01.alicdn.com/kf/Hcdbfd5f0390d485dbf3934b5a03ea21ed/Estojo-escolar-kawaii-estojo-transparente-material-de-papelaria-coreano.jpg_Q90.jpg_.webp"
+        },
+        {
+          "id": "92601102",
+          "name": "É Assim que Acaba - Colleen Hoover",
+          "price": 42.99,
+          "oldPrice": 559.99,
+          "image": "https://images-americanas.b2w.io/produtos/132899741/imagens/livro-e-assim-que-acaba/132899741_3_large.jpg"
+        },
+        {
+          "id": "9465450R",
+          "name": "É assim que começa - Colleen Hoover",
+          "price": 38.99,
+          "oldPrice": 399.99,
+          "image": "https://images-americanas.b2w.io/produtos/7249942802/imagens/e-assim-que-comeca-colleen-hoover/7249942829_1_large.jpg"
+        },
+        {
+          "id": "95004531",
+          "name": "Marca Texto Stabilo Boss",
+          "price": 12.99,
+          "oldPrice": 449.99,
+          "image": "https://images.tcdn.com.br/img/img_prod/893267/stabilo_boss_marca_texto_tons_pasteis_95_1_e3bbc4b247619d1fcbc13eb950fa848c.jpeg"
+        },
+        {
+          "id": "94672705",
+          "name": "Caneta Stabilo Ponta 0,4mm - Sortidas",
+          "price": 9.99,
+          "oldPrice": 229.99,
+          "image": "https://images.tcdn.com.br/img/img_prod/745319/caneta_stabilo_sortidas_ponta_0_4mm_point_88_1067_1_cd6e066f79635afbbfb41611cb127782_20211104123524.jpg"
+        },
+        {
+          "id": "92456602",
+          "name": "Lapiseira 0.7mm Cactus",
+          "price": 11.99,
+          "oldPrice": 209.99,
+          "image": "https://images.tcdn.com.br/img/img_prod/983627/lapiseira_cactus_0_7mm_tilibra_1093_1_3898fb7c9ad8b76ea6601afc390ce3d4.jpg"
+        },
+        {
+          "id": "94461431",
+          "name": "Tênis Infantil Nike Flex Runner",
+          "price": 279.99,
+          "oldPrice": null,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/94461431.jpg"
+        },
+        {
+          "id": "95850662",
+          "name": "Tênis adidas Runfalcon 2.0",
+          "price": 199.99,
+          "oldPrice": 279.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95850662.jpg"
+        },
+        {
+          "id": "943137X8",
+          "name": "Tênis Nike Revolution 5",
+          "price": 249.99,
+          "oldPrice": 349.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/943137X8.jpg"
+        },
+        {
+          "id": "93227802",
+          "name": "Tênis Infantil Puma Wired",
+          "price": 159.99,
+          "oldPrice": 189.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/93227802.jpg"
+        },
+        {
+          "id": "93828502",
+          "name": "Tênis Infantil Nike Pico 5 Baby",
+          "price": 139.99,
+          "oldPrice": 179.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/93828502.jpg"
+        },
+        
+        {
+          "id": "95150929",
+          "name": "Tênis Asics Patriot 12",
+          "price": 199.99,
+          "oldPrice": 259.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95150929.jpg"
+        },
+        {
+          "id": "95870805",
+          "name": "Tênis Asics Gel-Pacemaker",
+          "price": 299.99,
+          "oldPrice": 399.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95870805.jpg"
+        },
+        {
+          "id": "95707805",
+          "name": "Tênis Mizuno Wave Prophecy X",
+          "price": 1299.99,
+          "oldPrice": 1499.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95707805.jpg"
+        },
+        {
+          "id": "94672719",
+          "name": "Tênis adidas Lite Racer 20",
+          "price": 179.99,
+          "oldPrice": 229.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/94672719.jpg"
+        },
+        {
+          "id": "95876431",
+          "name": "Tênis Asics Gel-Nagoya 3",
+          "price": 299.99,
+          "oldPrice": 379.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95876431.jpg"
+        },
+       
+        {
+          "id": "95707845",
+          "name": "Tênis Mizuno Wave Prophecy X",
+          "price": 1299.99,
+          "oldPrice": 1499.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95707845.jpg"
+        },
+        {
+          "id": "946545OX",
+          "name": "Tênis Nike Renew Run",
+          "price": 279.99,
+          "oldPrice": 399.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/946545OX.jpg"
+        },
+        {
+          "id": "9465450M",
+          "name": "Tênis Nike Renew Run",
+          "price": 279.99,
+          "oldPrice": 399.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/9465450M.jpg"
+        },
+        {
+          "id": "95939145",
+          "name": "Tênis Fila Grand Prix",
+          "price": 199.99,
+          "oldPrice": 249.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95939145.jpg"
+        },
+        {
+          "id": "95326905",
+          "name": "Tênis Fila Recovery",
+          "price": 259.99,
+          "oldPrice": 299.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95326905.jpg"
+        },
+        {
+          "id": "951509X8",
+          "name": "Tênis Asics Patriot 12",
+          "price": 199.99,
+          "oldPrice": 259.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/951509X8.jpg"
+        },
+        {
+          "id": "9515093X",
+          "name": "Tênis Asics Patriot 12",
+          "price": 199.99,
+          "oldPrice": 259.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/9515093X.jpg"
+        },
+        {
+          "id": "9590484W",
+          "name": "Tênis Puma Anzarun SR BDP",
+          "price": 229.99,
+          "oldPrice": 329.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/9590484W.jpg"
+        },
+        {
+          "id": "943137D0",
+          "name": "Tênis Nike Revolution 5",
+          "price": 249.99,
+          "oldPrice": 349.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/943137D0.jpg"
+        },
+        {
+          "id": "9465459P",
+          "name": "Tênis Nike Renew Run",
+          "price": 279.99,
+          "oldPrice": 399.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/9465459P.jpg"
+        },
+        {
+          "id": "94218131",
+          "name": "Tênis Infantil Nike Court Borough Low 2",
+          "price": 199.99,
+          "oldPrice": 299.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/94218131.jpg"
+        },
+        {
+          "id": "95707858",
+          "name": "Tênis Mizuno Wave Prophecy X",
+          "price": 1299.99,
+          "oldPrice": 1499.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95707858.jpg"
+        },
+        {
+          "id": "94876962",
+          "name": "Tênis adidas Lite Racer 2.0",
+          "price": 179.99,
+          "oldPrice": 249.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/94876962.jpg"
+        },
+        {
+          "id": "94313703",
+          "name": "Tênis Nike Revolution 5",
+          "price": 249.99,
+          "oldPrice": 349.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/94313703.jpg"
+        },
+        
+        {
+          "id": "93761902",
+          "name": "Tênis Oakley Modoc 2.0",
+          "price": 449.99,
+          "oldPrice": 649.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/93761902.jpg"
+        },
+        {
+          "id": "95150919",
+          "name": "Tênis Asics Patriot 12",
+          "price": 199.99,
+          "oldPrice": 259.99,
+          "image": "https://imgcentauro-a.akamaihd.net/230x230/95150919.jpg"
+        }
+      ]
+}
