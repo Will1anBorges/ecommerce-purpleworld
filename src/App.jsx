@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { Best, ButtonCart, ButtonConheca, ButtonMenu, ButtonSearch, ButtonUser, Container, Flex, Footer, Header, Item, SearchBar, EmailBar, ButtonSocial, ButtonCheck, ButtonAddFavorite, ButtonShare, ButtonAddCart, ButtonDirec, Pulse } from './styles/styles'
+import { Menu, Best, Promotional, ButtonCart, ButtonConheca, ButtonSearch, ButtonUser, Container, Flex, Footer, Header, Item, SearchBar, EmailBar, ButtonSocial, ButtonCheck, ButtonAddFavorite, ButtonShare, ButtonAddCart, ButtonDirec, Pulse } from './styles/styles'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faCartShopping, faEnvelope, faSearch, faUser, faCheck, faCartPlus, faShare, faHeart, faCircleChevronLeft, faCircleChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFacebook, faWhatsapp, faTiktok } from '@fortawesome/free-brands-svg-icons';
@@ -37,8 +37,24 @@ function App() {
   return (
     <Container>
       <Header>
+          <Menu>
+            <button className='buttonMenu'><FontAwesomeIcon icon={faBars} />            
+            <li>
+              <ul>
+                <li><a href="#">Child Link</a></li>
+                <li><a href="#">Child Link</a></li>
+                <li><a href="#">Child Link</a></li>
+                <li><a href="#">Child Link</a></li>
+              </ul>
+            </li>
+            </button>
+            {/* <div className='dropdown-content'>
+              <a href="">Teste 1</a>
+              <a href="">Teste 2</a>
+              <a href="">Teste 3</a>
+            </div> */}
+          </Menu>
         <Flex direction="row">
-          <ButtonMenu><FontAwesomeIcon icon={faBars} /></ButtonMenu>
           <img className='logo' src={LogoImg} alt="Logo Image" />
           <SearchBar
             type="text"
@@ -165,6 +181,131 @@ function App() {
           <Item>
             <img src={data['products'] ? data['products']['9']['image'] : ''} alt="" />
             <span>{data['products'] ? data['products']['9']['name'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['9']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+        </Flex>
+        <Flex className='btns' direction="row" justify="space-between">
+          <ButtonDirec className='buttons-direc' onClick={handleLeftClick}>
+            <FontAwesomeIcon icon={faCircleChevronLeft} />
+          </ButtonDirec>
+          <ButtonDirec className='buttons-direc' onClick={handleRightClick}>
+            <FontAwesomeIcon icon={faCircleChevronRight} />
+          </ButtonDirec>
+        </Flex>
+      </Flex>
+
+      <Promotional>Promotional Items</Promotional>
+
+      <Flex className="container-carousel">
+        <Flex className="carousel" direction="row" justify="none" ref={carousel}>
+          <Item>
+            <img src={data['products'] ? data['products']['0']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['0']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['0']['oldPrice'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['0']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+          <Item>
+            <img src={data['products'] ? data['products']['1']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['1']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['1']['oldPrice'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['1']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+          <Item>
+            <img src={data['products'] ? data['products']['2']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['2']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['2']['oldPrice'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['2']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+          <Item>
+            <img src={data['products'] ? data['products']['3']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['3']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['3']['oldPrice'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['3']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+          <Item>
+            <img src={data['products'] ? data['products']['4']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['4']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['4']['oldPrice'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['4']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+          <Item>
+            <img src={data['products'] ? data['products']['5']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['5']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['5']['oldPrice'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['5']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+          <Item>
+            <img src={data['products'] ? data['products']['6']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['6']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['6']['oldPrice'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['6']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+          <Item>
+            <img src={data['products'] ? data['products']['7']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['7']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['7']['oldPrice'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['7']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+          <Item>
+            <img src={data['products'] ? data['products']['8']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['8']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['8']['oldPrice'] : ''}</span>
+            <span className='price'>R$ {data['products'] ? data['products']['8']['price'] : ''}</span>
+            <Flex direction="row" gap="9px">
+              <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>
+              <ButtonShare><FontAwesomeIcon icon={faShare} /></ButtonShare>
+              <ButtonAddCart><FontAwesomeIcon icon={faCartPlus} /></ButtonAddCart>
+            </Flex>
+          </Item>
+          <Item>
+            <img src={data['products'] ? data['products']['9']['image'] : ''} alt="" />
+            <span>{data['products'] ? data['products']['9']['name'] : ''}</span>
+            <span className='oldPrice'>R$ {data['products'] ? data['products']['9']['oldPrice'] : ''}</span>
             <span className='price'>R$ {data['products'] ? data['products']['9']['price'] : ''}</span>
             <Flex direction="row" gap="9px">
               <ButtonAddFavorite><FontAwesomeIcon icon={faHeart} /></ButtonAddFavorite>

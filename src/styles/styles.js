@@ -32,30 +32,6 @@ export const Flex = styled.div`
     gap: ${(props) => props.gap || "0px"};
 `
 
-export const ButtonMenu = styled.button`
-    position: absolute;
-    right: 93%;
-    top: 30%;
-
-    font-size: 35px;
-
-    background: transparent;
-    color: #DAC3E8;
-    border: none;
-
-    transition: ease-in 0.1s;
-
-    &:hover {
-        filter:drop-shadow(0px 0px 5px #f1faee);
-        cursor: pointer;
-        transform: scale(1.2);
-    }
-
-    &:active {
-        transform: scale(1.1);
-    }
-`
-
 export const SearchBar = styled.input`
     width: 646px;
     height: 44px;
@@ -185,16 +161,25 @@ export const Best = styled.h1`
     display: flex;
     justify-content: center;
     margin-top: 7%;
-    
+    margin-bottom: 1%;
     font-family: 'Gorditas';
     font-size: 50px;
     color: #A06CD5;
 `
 
+export const Promotional = styled.h1`
+    display: flex;
+    justify-content: center;
+    font-family: 'Gorditas';
+    font-size: 50px;
+    color: #A06CD5;
+    margin-bottom: 1%;
+`
+
 export const Item = styled.div`
     display: flex;
     background-color: #FFF1E6;
-    height: 340px;
+    height: 360px;
     width: 220px;
     flex: none;
     flex-direction: column;
@@ -224,11 +209,25 @@ export const Item = styled.div`
         background-color: #815AC0;
         border-radius: 10px;
         width: 150px;
-        padding: 3px;
+        padding: 2px;
         color: #e1e1e1;
     }
 
+    .oldPrice {
+        opacity: 0;
+        transition: ease-in 0.3s;
+        background-color: #d90429;
+        border-radius: 10px;
+        width: 150px;
+        padding: 2px;
+        color: #e1e1e1;
+        text-decoration: line-through;
+    }
+
     &:hover{
+        .oldPrice {
+            opacity: 100;
+        }
 
         .price {
             opacity: 100;
@@ -239,6 +238,68 @@ export const Item = styled.div`
     margin: 25px;
     box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
 `
+export const Menu = styled.div`
+    position: relative;
+    display: inline-block;
+    left: 2%;
+    top: 34%;
+
+    li {
+        list-style-type: none;
+        min-width: 150px;
+    }
+
+    ul {
+        background: #7251b5;
+        height: 0;
+        left: -58px;
+        opacity: 0;
+        position: absolute;
+        transition: all ease .2s;
+        width: 150px;
+        border-radius: 20px; 
+    }
+      
+    .buttonMenu {
+        background: transparent;
+        position: absolute;
+        font-size: 35px;
+        width: 30px;
+        color: #DAC3E8;
+        border: none;
+    }
+
+    a {
+        color: #42258f;
+        padding: 4px 10px;
+        text-decoration: none;
+        display: block;
+        font-family: 'Gorditas', cursive;
+        font-size: 20px;
+        display: none;
+        transition: all ease-in .3s;
+    }
+
+    &:hover {
+        ul {
+            height: 150px;
+            opacity: 1;
+            transform: translateY(0);  
+            a {
+                display: block;
+            }        
+        }
+    }
+    a:hover {
+        color: #DAC3E8;
+    } 
+
+    }
+
+    border-radius: 30px;
+    margin: 25px;
+`
+
 
 export const Footer = styled.div`
     width: 100vw;
